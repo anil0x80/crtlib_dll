@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{f6b0e7a2-f60c-474f-b061-bacece479a78}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\algorithm.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\algorithm_sort.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\array.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\asmlib.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\assert.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\c_string.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\clock.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\crt_init.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\crt_windows.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\file_logger.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\format.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\function.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\functional.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hash.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hash_table.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\heap_allocator.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\in_place.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\instruction_helper.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\instruction_helper.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\iterator.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\limited_queue.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\list.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\maybe.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mersenne_twister.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mutex.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\my_math.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\my_memory.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\my_string.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\my_vector.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pair.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pattern_search.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\queue.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\random.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\result.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\set.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\smart_ptr.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sse.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\stack.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\stack_string.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\string_utils.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\my_time.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\to_string.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\type.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\assert.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\clock.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crt_dllmain.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crt_init.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crt_windows.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\file_logger.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\heap_allocator.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mersenne_twister.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mutex.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\my_math.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pattern_search.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\random.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sse.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\my_time.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\to_string.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crt_args.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crt_console.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
